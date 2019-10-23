@@ -1,0 +1,23 @@
+{
+  "name": "uptask",
+  "version": "1.0.0",
+  "description": "Proyecto Uptask con node ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Jhonatan Adames",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "mysql2": "^1.7.0",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.1",
+    "shortid": "^2.2.15",
+    "slug": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
